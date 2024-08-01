@@ -6,10 +6,12 @@
     margin: 10vw auto;
     padding: 6px;
     color: #606060;
+    top: 10%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
     
 }
 
-.welcomeBlurb-container h2 {
-    margin-top: 0;
-    margin-bottom: 0;
-}
