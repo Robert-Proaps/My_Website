@@ -1,0 +1,15 @@
+/*Welcome Blurb Styling*/
+.welcomeBlurb-container {
+    background-color: oldlace;
+    border-radius: 10px;
+    width: 90vw;
+    margin: 10vw auto;
+    padding: 6px;
+    color: #606060;
+    
+}
+
+.welcomeBlurb-container h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
