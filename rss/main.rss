@@ -3,8 +3,13 @@
 
 <channel>
     <title>Rob's Blog</title>
-    <link>UTL_TO_WEBSITE</link>
+    <link>http://robsplace.thsite.top/html/blog.html</link>
     <description>Engineering, Art, and Everything In Between.</description>
+    <item>
+        <title>Making a website</title>
+        <link>http://robsplace.thsite.top/html/blog.html</link>
+        <description>My first blog post</description>
+    </item>
 </channel>
 
 </rss>
