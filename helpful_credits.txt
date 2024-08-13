@@ -1,0 +1,5 @@
+### This is a list of websites and services on the web that I found helpful in creating my website and assets.
+Tinkerhost - Free Webhosting (its really great)
+CSS Gradient Animator by Ian Forrest - A animated gradient maker. https://www.gradient-animator.com/
+Code Pen - A very good front end design tool with a good community. https://codepen.io
+W3Schools - Literally everything just type the name.
