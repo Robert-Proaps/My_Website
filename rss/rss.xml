@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Rob's Place</title>
+        <link>https://robsplace.dev</link>
+        <description>Engineering, Art, and Everything In Between</description>
+        <language>en-us</language>
+    </channel>
+</rss>
