@@ -5,5 +5,10 @@
         <link>https://robsplace.dev</link>
         <description>Engineering, Art, and Everything In Between</description>
         <language>en-us</language>
+        <item>
+            <title>Making A Website</title>
+            <link>http://robsplace.thsite.top/html/blog.html</link>
+            <description>Why would I make a website in 2024?</description>
+        </item>
     </channel>
 </rss>
