@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(255, 253, 232);
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(27,10,88,1) 21%, rgba(47,17,128,1) 29%, rgba(21,126,199,1) 47%, rgba(0,212,255,1) 100%);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
