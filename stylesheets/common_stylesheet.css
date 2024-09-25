@@ -1,6 +1,6 @@
 body {
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(27,10,88,1) 21%, rgba(47,17,128,1) 29%, rgba(21,126,199,1) 47%, rgba(0,212,255,1) 100%);
+    background: rgb(26,0,120);
+background: linear-gradient(180deg, rgba(26,0,120,1) 0%, rgba(47,17,128,1) 20%, rgba(26,126,195,1) 30%, rgba(31,164,223,1) 35%, rgba(57,189,245,1) 40%, rgba(97,210,255,1) 45%, rgba(163,232,255,1) 55%, rgba(156,231,255,1) 90%, rgba(0,212,255,1) 100%);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -22,7 +22,7 @@ body {
     align-items: center;
     height: 15vh;
     gap: 20px;
-    box-shadow: 0px 5px 30px 5px gray;
+    
 }
 .navigation > div > a {
     text-decoration: none;
