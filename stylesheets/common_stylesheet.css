@@ -35,6 +35,35 @@ background: linear-gradient(180deg, rgba(26,0,120,1) 0%, rgba(47,17,128,1) 20%, 
    
 }
 
+
+.background_container {
+    position: absolute;
+    top: 15vh;
+    width: 100vh;
+    bottom: 25vh;
+    z-index: -1;
+}
+
+#cloud1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(calc(var(--mouse-x) / -5), 0);
+  }
+  
+  #cloud2 {
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translate(calc(var(--mouse-x) / 6), 0);
+  }
+  
+  #cloud3 {
+    position: absolute;
+    top: 20px;
+    left: 70%;
+    transform: translate(calc(var(--mouse-x) / 4), 0);
+  }
+
 footer {
     margin-top: auto;
 }
