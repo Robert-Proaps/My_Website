@@ -1,0 +1,50 @@
+body {
+    background: rgb(26,0,120);
+background: linear-gradient(180deg, rgba(26,0,120,1) 0%, rgba(47,17,128,1) 20%, rgba(26,126,195,1) 30%, rgba(31,164,223,1) 35%, rgba(57,189,245,1) 40%, rgba(97,210,255,1) 45%, rgba(163,232,255,1) 55%, rgba(156,231,255,1) 90%, rgba(0,212,255,1) 100%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'MuseoModerno', sans-serif;
+   
+}
+
+@font-face {
+    font-family: "MuseoModerno";
+    src: url("../assets/fonts/MuseoModerno-VariableFont_wght.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(#0066ff, #0099ff, #66ffff, #00ccff, #0099ff);
+    align-items: center;
+    height: 15vh;
+    gap: 20px;
+    
+}
+
+.navigation > div {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font-size: 25pt;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(193,192,192,1) 13%, rgba(162,159,159,1) 24%, rgba(158,158,158,1) 26%, rgba(215,211,211,1) 63%, rgba(191,190,190,1) 79%, rgba(255,255,255,1) 100%);
+    border: 2px, solid, gray;
+    border-radius: 70px;
+   
+}
+
+.article {
+    background: rgb(214,221,227);
+    background: linear-gradient(153deg, rgba(214,221,227,1) 16%, rgba(240,248,255,1) 25%, rgba(217,224,231,1) 34%, rgba(240,248,255,1) 65%, rgba(224,241,255,1) 99%);
+    padding: 10px;
+    border: 3px solid gray;
+    border-radius: 15px;
+    width: 90%;
+    bottom: 0px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    align-self: center;
+}
