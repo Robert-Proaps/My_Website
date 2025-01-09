@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html style="margin: 0; padding: 0;">
+    <head>
+        <title>Rob's Place</title>
+        <meta name="description" content="Welcome to Rob's Place! My small corner of the web, here you can find my projects, my photos, and anything else I feel like adding.">
+        <link rel="icon" type="image/x-icon" href="../assets/images/icons_and_logos/website_favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="author" content="Robert Proaps">
+        <meta name="keywords" content="Robert, Proaps, Robs Place, photography, making, programming, blog">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../stylesheets/common_stylesheet.css">
+        <link rel="stylesheet" href="../stylesheets/home_stylesheet.css">
+
+        <script> <!--Handles moving background elements-->
+            document.addEventListener('mousemove', (event) => {
+            const x = event.clientX;
+            const y = event.clientY;
+            document.documentElement.style.setProperty('--mouse-x', `${x}px`);
+            document.documentElement.style.setProperty('--mouse-y', `${y}px`);
+            });
+        </script>
+    </head>
+    <body style="margin: 0; padding: 0;">
+        <nav>
+        <div class="navigation">
+           <div style="order: 5"><a href="../html/index.html">Home</a></div>
+           <div style="order: 4"><a href="../html/projects.html">Projects</a></div>
+           <div style="order: 3"><a href="../html/gallery.html">Gallery</a></div>
+           <div style="order: 2"><a href="../html/blog.html">Blog</a></div>
+           <div style="order: 1; margin-right: 10px;"><a href="../html/other.html">Other</a></div>
+        </div>
+        </nav>
+        <div class="background_container">
+            <svg style="display:none;">
+                <symbol id="cloud" viewbox="0 0 100 100" overflow="visible">
+                    <rect width="100" height="30" rx="15" ry="15" x="0" y ="70" fill="white"/>
+                    <circle r="15" cx="30" cy="70" fill="white"/>
+                    <circle r="20" cx="60" cy="70" fill="white"/>
+                    <circle r="10" cx="80" cy="70" fill="white"/>
+                </symbol>
+            </svg>
+            <svg id="cloud1" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                <use href="#cloud"></use>
+            </svg>
+            <svg id="cloud2" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                <use href="#cloud"></use>
+            </svg>
+            <svg id="cloud3" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                <use href="#cloud"></use>
+            </svg>
+            
+        </div>
+        <section class="welcomeBlurb" style="margin: 10vw;">
+            <div class="content" style="display: flex; flex-direction: column;">
+                <div style="display: flex; flex-direction: row;">
+                    <h2>Welcome to my website!</h2>
+                </div>   
+                <div style="display: flex; flex-direction: row; align-items: center;">
+                    <h3 style="width: 30vw;">What can you find here?</h3>
+                </div> 
+                <div style="display: flex; flex-direction: row; align-items: center; width: 60vw; text-align: justify;">
+                    Here you can find my various projects ranging in discipline from graphic design to engineering, a photo gallery that I use isntead of instagram, a blog which I intend to be an informal medium between project writeups and progress logs, and a menagerie of custom applications, games, and tools for having fun on the web.
+                </div> 
+                <div style="display: flex; flex-direction: row;">
+                    <h3>How to navigate the site.</h3>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <p>     Navigating this website is pretty simple, you have already found the <b>home page</b>, here you can find basic information about the website, whats new, and some small-web interlinking through webrings and buttons. The top of all pages has navigation to all other main pages, and the footer of all pages has external links, the sitemap, and copyright information.     <br>
+                    In regards to copyright feel free to use any neat web design you find here just make it your own. In general I only safeguard my articles and my photography.</p>
+                    <p>When searching for content on this site you can find long form writeups of my projects and crafts on the <b>Projects</b> page. A photo gallery which I use in leu of instagram can be found on the <b>Gallery Page</b>. Short form updates on my projects as well as small articles can be found on the <b>Blog Page</b>.<br>
+                    Lastly the other page contains many goodies, tools and software made by myself, credits to many great tools made by others, graphics, buttons, stickers, and frames for your own use and pretty much anything I didnt think of when making the website layout.</p>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <h3>Under Construction</h3>
+                    This website is still in its early stages and much is underconstruction, Thank you for visiting, and I hope you find your way back someday.
+                </div>
+            </div>
+        </section>
+        <section style="margin: 10px;">
+            <div id="sectionVertDivide">
+                <div id=guestbookContainer>
+                    guestbookGoesHere
+                </div>
+                <div id="newsContainer">
+                    <h4>Recently Added</h4>
+                    Framework for expanded blog articles.
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footerContainer">
+                <ul>
+                    <li><a href="https://github.com/Robert-Proaps">Github</a></li>
+                    <li><a href="https://www.thingiverse.com/seth_proaps/designs">Thingiverse</a></li>
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                </ul>
+                <ul>
+                    <li><a href="https://www.youtube.com/">Youtube</a></li>
+                    <li><a href="https://www.linkedin.com/in/robert-proaps-bb425a28a/">Linkedin</a></li>
+                    <li><a href="../html/sitemap.html">Sitemap</a></li>
+                </ul>
+                <h3>©Robert Proaps 2025</h3>
+            </div>
+        </footer>
+    </body>
+
+</html>
