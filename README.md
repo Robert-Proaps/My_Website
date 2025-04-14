@@ -3,4 +3,4 @@
 
 ### www.robsplace.dev
 
-I happily use tinkerhost and reccomend it for anyone wanting to get into websites.
+I have happily moved from tinkerhost who sold out my subdomain to ads, to porkbun, who have been quite helpful.
