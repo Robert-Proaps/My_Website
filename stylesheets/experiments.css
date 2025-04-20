@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Kelvinized";
+    src: url("../assets/fonts/Kelvinized.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MuseoModerno";
+    src: url("../assets/fonts/MuseoModerno-VariableFont_wght.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #55a4f2;
+    background-image:
+        linear-gradient(white 6px, transparent 6px),
+        linear-gradient(90deg, white 6px, transparent 6px),
+        linear-gradient(lightgray 3px, transparent 3px),
+        linear-gradient(90deg, lightgray 3px, transparent 3px);
+    background-size: 10vw 10vw, 10vw 10vw, 10vw 10vw, 10vw 10vw;
+    background-position: 0 0, 0 0, 0 0, 0 0;
+    animation: move-grid 10s linear infinite;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation_container {
+    z-index: 90;
+    width: 100vw;
+    height: 4cm;
+    background-color: rgba(75, 75, 75, 0.5);
+    background-image: 
+        linear-gradient(90deg, black 2px, transparent 1px),
+        linear-gradient(90deg, black 2px, transparent 1px),
+        linear-gradient(90deg, black 2px, transparent 1px),
+        linear-gradient(90deg, black 2px, transparent 1px);
+    background-repeat: repeat-x, repeat-x, repeat-x, repeat-x;
+    background-position: top, bottom, top, bottom;
+    background-size: 0.333cm 0.5cm, 0.333cm 0.5cm, 1cm 1cm, 1cm 1cm;
+    position: absolute;
+    display: flex; 
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    h1 {
+        font-family: "Kelvinized";
+        background-image: linear-gradient(gold, silver);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-left:10px;
+        
+    }
+    #slider {
+        position: absolute;
+        
+    }
+}
+
+#nav_list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    font-family: "MuseoModerno", sans-serif;
+    font-size: 20pt;
+    margin: 0;
+    padding: 2px 0.5cm 2px 2px;
+    margin-right: 1cm;
+    
+    li {
+        margin: 0;
+        margin-right: 10px;
+        background-color: white;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+        
+        
+    }
+}
+
+/*This container was mainly for testing the paper texture, it will not have a background.*/
+#main_body_container {
+    background-image: url(../assets/images/textures/natural-paper.png);
+    background-color: #c4c59c;
+    position:absolute;
+    top: 5cm;
+    width: 25.5vw;
+    height: 3cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    
+}
+
+
+
+@keyframes move-grid {
+    0% {
+        background-position: 0 0, 0 0, 0 0, 0 0;
+    }
+    100% {
+        background-position: -10vw 10vw, -10vw 10vw, -20vw 20vw, -20vw 20vw;
+    }
+}
