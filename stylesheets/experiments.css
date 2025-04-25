@@ -55,6 +55,7 @@ body {
     }
     #slider {
         position: absolute;
+        pointer-events: none;
         
     }
 }
